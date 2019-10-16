@@ -1,0 +1,36 @@
+{
+  "开发指南": [
+    {
+      "name": "SVG图形",
+      "path": "/graph",
+      "desc": "SVG图形",
+      "items": [
+        {"desc": "SVG 直线（line）","name": "line","path": "/line"},
+        {"desc": "SVG 矩形（rect）","name": "line","path": "/line"},
+        {"desc": "SVG 圆角矩形","name": "line","path": "/line"},
+        {"desc": "SVG 圆形（cicre）","name": "line","path": "/line"},
+        {"desc": "SVG 椭圆（ellipse）","name": "line","path": "/line"},
+        {"desc": "SVG 折线（polyline）","name": "line","path": "/line"},
+        {"desc": "SVG 多边形（polygon）","name": "line","path": "/line"},
+        {"desc": "SVG 路径(path)","name": "line","path": "/line"},
+        {"desc": "SVG 弧线","name": "line","path": "/line"},
+        {"desc": "SVG 弧线","name": "line","path": "/line"},
+        {"desc": "SVG 二次贝塞尔曲线","name": "line","path": "/line"},
+        {"desc": "SVG 三次贝塞尔曲线","name": "line","path": "/line"},
+        {"desc": "SVG marker","name": "line","path": "/line"},
+        {"desc": "SVG svg元素样式","name": "line","path": "/line"}
+        
+      ]
+    },
+    {
+      "name": "SVG文本",
+      "path": "/svg",
+      "desc": "SVG文本",
+      "items": [
+        {"desc": "text","name": "text","path": "/textPath?1"},
+        {"desc": "textPath","name": "textPath","path": "/textPath?2"},
+        {"desc": "tspan","name": "tspan","path": "/textPath?3"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.evaluation-pagination{
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0; 
+  }
+  float: right;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  input[type="number"]{-moz-appearance:textfield;}
+  .evaluation-pagination-sizer {
+    margin-right:10px;
+    width:auto;
+  }
+  .evaluation-pagination-search {
+    margin-left:10px;
+    width:auto;
+  }
+  .ant-pagination{
+    display:inline-block;
+  }
+  .ant-input-group {
+    &.ant-input-group-compact{
+      display: inline-block;
+    }
+  }
+  .anticon-ellipsis{
+    svg {
+      display: none;
+    }
+  }
+  button.ant-btn.ant-btn-default.ant-dropdown-trigger {
+    width: 33px;
+  }
+  i.anticon.anticon-ellipsis:before{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-width: 0 5px 5px;
+    border-style: solid;
+    border-color: transparent transparent #24344e;
+  }
+}

@@ -1,0 +1,132 @@
+.evaluation-feedback{
+  ul,li{
+    padding: 0;
+    margin: 0;
+  }
+  font-family:'Microsoft YaHei';
+  width:1200px;
+  .empty-text{
+    line-height:150px;
+    text-align: center;
+    width:100%;
+  }
+  .evaluation-feedback-body{
+    color:#505050;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  .evaluation-feedback-body-left{
+    float: left;
+    width:40%;
+    .evaluation-feedback-list{
+      margin:0;
+      padding:0;
+      li {
+        list-style: none;
+        height: 48px;
+        line-height: 48px;
+        background: #f7f7f7;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+        border-left: 3px solid #f7f7f7;
+        white-space: nowrap;
+        .span-left{
+          display: inline-block;
+          margin-left: 100px;
+          width: 120px;
+          .label{
+            display: inline-block;
+            height:22px;
+            line-height: 22px;
+          }
+          .b-left{
+            color: #fe7328;
+            font-size: 16px;
+          }
+        }
+        .span-right{
+          display: inline-block;
+          margin-left: 10%;
+          width: 180px;
+          .b-right{
+            font-size: 16px;
+          }
+        }
+        &.active{
+          background: #fff;
+          border-left: 3px solid #197aff;
+          border-right: 1px solid #fff;
+        }
+        &:hover{
+          cursor: pointer;
+          background: #fff;
+          border-left: 3px solid #197aff;
+          border-right: 1px solid #fff;
+        }
+      }
+    }
+  }
+  .evaluation-feedback-body-right{
+    position: relative;
+    width:59%;
+    p{
+      margin: .8em 0;
+    }
+    .feedback-score{
+      position: relative;
+      float: left;
+      height: 150px;
+      text-align: center;
+      width:35%;
+      p {
+        margin: 10px 0 0px;
+      }
+      .score{
+        color: #fe7328;
+        font-size: 64px;
+        height: 80px;
+        line-height: 80px;
+      }
+      .ant-rate {
+        margin-top: 5px;
+      }
+    }
+    .feedback-detail{
+      position: relative;
+      float: left;
+      width: 55%;
+      padding-left: 40px;
+      border-left: 1px solid #eee;
+      .everyDetail{
+        overflow: hidden;
+        padding: 1px 0;
+        .star {
+          float: left;
+          .times {
+             width: 60px;
+             display: inline-block;
+             margin-left: 10px;
+           }
+         }
+         .progressBar{
+           float: left;
+           width: 100px;
+           height: 12px;
+           background: #eee;
+           margin-top:3px;
+           .progressBarBody{
+             background: #fe7328;
+             height: 100%;
+           }
+         }
+         .score{
+          width: 60px;
+          margin-left: 10px;
+          display: inline-block;
+         }
+      }
+    }
+   
+  }
+}
